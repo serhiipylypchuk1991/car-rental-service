@@ -1,0 +1,7 @@
+[
+	{ "id":1, "value":"visa" },
+	{ "id":2, "value":"americanexpress" },
+	{ "id":3, "value":"visa-electron" },
+	{ "id":4, "value":"maestro" },
+	{ "id":5, "value":"mastercard" }
+]

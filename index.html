@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+    <head>
+		<title>Car Rental Service</title>
+		<meta charset="utf-8">
+		<!--Webix sources -->
+		<script type="text/javascript" src="//cdn.webix.com/pro/edge/webix.js"></script>
+		<link rel="stylesheet" type="text/css" href="//cdn.webix.com/pro/edge/webix.css">
+		<link rel="stylesheet" href="//cdn.materialdesignicons.com/4.9.95/css/materialdesignicons.css" type="text/css" charset="utf-8">
+		<!--App sources -->
+		<script src="js/datatable.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/toolbar.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/pager.js" type="text/javascript" charset="utf-8"></script>
+		<link rel="stylesheet" href="css/index.css" type="text/css" charset="utf-8">
+    </head>
+    <body>
+			<script type="text/javascript">
+
+				webix.ready(function(){
+
+					//enable CustomScroll
+					if(!webix.env.touch && webix.env.scrollSize){webix.CustomScroll.init()};
+
+					webix.ui({
+						rows:[
+  						toolbar,
+  						datatable,
+							{cols:[
+								{},pager,{}
+							]}
+						]
+					});
+
+				});
+
+			</script>
+		</body>
+</html>

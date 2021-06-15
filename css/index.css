@@ -1,0 +1,52 @@
+/*for resized columns*/
+.resize_cols{
+	background:#f5e08e;
+}
+
+/*hover icons*/
+.webix_icon.star:hover, .wxi-close-circle:hover, .wxi-columns:hover, .wxi-plus-circle:hover, .wxi-drag:hover, .wxi-trash:hover{
+	color:#1CA1C1;
+	cursor:pointer;
+}
+
+/*for add new row icon*/
+span.webix_icon.wxi-plus-circle{
+  font-size:30px;
+  margin:28px 22px;
+}
+
+/*for headermenu icon*/
+span.webix_icon.wxi-columns{
+  font-size:30px;
+  margin:27px 12px;
+}
+
+/*for delete column icon*/
+span.webix_icon.wxi-close-circle {
+  position: absolute;
+  right: 1px;
+  top: 1px;
+}
+
+/*for star icon*/
+span.webix_icon.star{
+	color:#177f8a;
+	font-size:20px;
+	margin:8px -5px;
+}
+
+/*for custom checkbox*/
+.checked{
+	color:green;
+	font-weight: bold;
+	cursor:pointer;
+}
+.notchecked{
+	color:red;
+	font-weight:bold;
+	cursor: pointer;
+}
+
+.highlight{
+	background-color:#f5878794;
+}
